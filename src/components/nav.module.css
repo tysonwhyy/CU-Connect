@@ -1,0 +1,23 @@
+.navContainer {
+  background-color: #d9d9d9;
+  font-size: 32px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftContainer,
+.rightContainer {
+  display: flex;
+}
+
+.leftContainer div,
+.rightContainer div {
+  padding: 0 0.5em;
+}
+
+.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
